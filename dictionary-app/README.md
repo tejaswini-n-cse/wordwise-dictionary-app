@@ -2,6 +2,8 @@
 
 A responsive, frontend-only dictionary built with **HTML, CSS and vanilla JavaScript**.
 
+![QR code generator screenshot](screenshot.png)
+
 ## Features
 - Search English words using the Free Dictionary API.
 - Display phonetic spelling, parts of speech and definitions.
@@ -33,8 +35,6 @@ No backend or API key is required. Search results depend on the public API being
 
 ## Built with
 HTML5 · CSS3 · JavaScript · Fetch API · Free Dictionary API
-
-![QR code generator screenshot](screenshot.png)
 
 ## Author
 
