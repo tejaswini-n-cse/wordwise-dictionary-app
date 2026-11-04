@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple dictionary app with definitions, phonetics and audio pronunciation.">
+  <title>WordWise — Dictionary</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="WordWise home"><span class="brand-icon">W</span> WordWise</a>
+      <span class="tagline">A little more meaning, every day.</span>
+    </header>
+    <section class="hero">
+      <p class="eyebrow">YOUR POCKET DICTIONARY</p>
+      <h1>Find the right <span>word.</span></h1>
+      <p class="intro">Discover definitions, hear pronunciations and grow your vocabulary.</p>
+      <form id="search-form" class="search-box">
+        <span class="search-symbol" aria-hidden="true">⌕</span>
+        <input id="word-input" type="search" placeholder="Try a word, e.g. serendipity" autocomplete="off" required>
+        <button type="submit">Search <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="hint">Try: curious · resilient · ephemeral</p>
+    </section>
+    <section id="status" class="status" role="status" aria-live="polite">Search for a word to get started.</section>
+    <section id="result" class="result hidden" aria-live="polite"></section>
+    <footer>Definitions provided by <a href="https://dictionaryapi.dev/" target="_blank" rel="noopener">Free Dictionary API</a>.</footer>
+  </main>
+</body>
+</html>
