@@ -34,6 +34,8 @@ No backend or API key is required. Search results depend on the public API being
 ## Built with
 HTML5 · CSS3 · JavaScript · Fetch API · Free Dictionary API
 
+![QR code generator screenshot](screenshot.png)
+
 ## Author
 
 **Tejaswini N**
